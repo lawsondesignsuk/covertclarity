@@ -264,7 +264,7 @@ section {
 
 
 .bio-img {
-    width: 250px;
+    width: 150px;
     height: auto;
     border-radius: 50%; /* Circular image */
     border: 3px solid #00ccff; /* Border for the image */
