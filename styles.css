@@ -136,17 +136,21 @@ nav ul li a:hover {
 
 .cta-button {
     display: inline-block;
-    background-color: #000; /* Black background for CTA */
-    color: #fff; /* White text for CTA */
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: 2px solid #fff; /* White border for CTA */
-    transition: background-color 0.3s ease;
-    margin-top: 20px;
+    background-color: #ff6347; /* Eye-catching orange background */
+    color: #fff; /* White text for contrast */
+    padding: 15px 30px; /* Larger padding for a more inviting button */
+    border-radius: 50px; /* Fully rounded button for a modern look */
+    border: none; /* Remove border for a clean design */
+    font-size: 1.2rem; /* Slightly larger font size */
+    font-weight: bold; /* Bold text to emphasize the CTA */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    text-transform: uppercase; /* Uppercase text for a more powerful look */
 }
 
 .cta-button:hover {
-    background-color: #444; /* Darker background on hover */
+    background-color: #ff4500; /* Bright orange on hover for interaction */
+    box-shadow: 0 6px 15px rgba(255, 69, 0, 0.4); /* Glow effect on hover */
+    transform: translateY(-3px); /* Slight lift on hover */
 }
 
 .services {
@@ -185,11 +189,21 @@ nav ul li a:hover {
 }
 
 .cta-section {
-    text-align: center;
-    padding: 40px 0;
-    background-color: #000; /* Black background for CTA section */
-    color: #fff; /* White text for CTA section */
-    border: 2px solid #fff; /* White border for CTA section */
+    background-color: #111; /* Darker black background for more contrast */
+    padding: 60px 20px; /* Professional padding for top, bottom, and sides */
+    text-align: center; /* Center the content */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Add a soft shadow for depth */
+    margin: 40px auto; /* Adds space around the CTA section */
+    max-width: 800px; /* Limits the width for better readability */
+}
+
+.cta-section h2 {
+    font-size: 2.2rem; /* Larger heading size for emphasis */
+    color: #fff; /* White text to stand out on black background */
+    margin-bottom: 20px; /* Spacing below the heading */
+    font-weight: 600; /* Bold heading for clarity */
+    letter-spacing: 1px; /* Adds subtle spacing between letters */
 }
 
 /* Common Styles for Both Sections */
